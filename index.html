@@ -3,55 +3,89 @@
     <head>
         <title>Podstawy HTML</title>
         <meta charset="UTF-8">
+        <style>
+            h3 {
+                color: green;
+            }
+        </style>
     </head>
     <body>
         <h1>Podstawy HTML</h1>
         <h2>Podstawowe znaczniki</h2>
+
+        <h3>1. Nagłówek  od 1 (największy) do 6 (najmniejszy) - &lt;h4&gt;&lt;/h4&gt;</h3>
+        Przykład: <br><b>&lt;h4&gt;Nagłówek&lt;/h4&gt;</b>
+        <br><br>Rezultat: <br><h4>Nagłówek</h4>
+        <br><br>Komentarz: Wyświetla nagłówek o nazwie Nagłówek o wielkości h4
         
-        <br><br>Akapit - &lt;p&gt;&lt;/p&gt;
-        <br>Przykład: <b>&lt;p&gt;Tekst&lt;/p&gt;Tekst poza akapitem</b>
-        <br>Rezultat: <p>Tekst</p>Tekst poza akapitem
-        <br>Komentarz: tekst jest umieszczony w nowym akapicie
+        <br><br><br><h3>2. Akapit - &lt;p&gt;&lt;/p&gt;</h3>
+        Przykład: <br><b>&lt;p&gt;Tekst&lt;/p&gt;Tekst poza akapitem</b>
+        <br><br>Rezultat: <br><p>Tekst</p>Tekst poza akapitem
+        <br><br>Komentarz: tekst jest umieszczony w nowym akapicie
         
-        <br><br>Pogrubienie tekstu - &lt;b&gt;&lt;/b&gt;
-        <br>Przykład: <b>&lt;b&gt;Tekst&lt;/b&gt;</b>
-        <br>Rezultat: <b>Tekst</b>
-        <br>Komentarz: standardowe pogrubienie tekstu
+        <br><br><br><h3>3. Pogrubienie tekstu (b) - &lt;b&gt;&lt;/b&gt;</h3>
+        Przykład: <br><b>&lt;b&gt;Tekst&lt;/b&gt;</b>
+        <br><br>Rezultat: <br><b>Tekst</b>
+        <br><br>Komentarz: standardowe pogrubienie tekstu
 
-        <br><br> Pogrubienie tekstu - &lt;strong&gt;&lt;/strong&gt;
-        <br>Przykład: <b>&lt;strong&gt;Tekst&lt;/strong&gt;</b>
-        <br>Rezultat: <strong>Tekst</strong>
-        <br>Komentarz: pogrubia w nowszysch przeglądarkach, podkreśla w starych, lepiej używać znacznika &lt;b&gt;&lt;/b&gt;
+        <br><br><br><h3>4. Pogrubienie tekstu (strong) - &lt;strong&gt;&lt;/strong&gt;</h3>
+        Przykład: <br><b>&lt;strong&gt;Tekst&lt;/strong&gt;</b>
+        <br><br>Rezultat: <br><strong>Tekst</strong>
+        <br><br>Komentarz: pogrubia w nowszysch przeglądarkach, podkreśla w starych, lepiej używać znacznika &lt;b&gt;&lt;/b&gt;
 
-        <br><br>Nowa linia tekstu - &lt;br&gt;
-        <br>Przykład: <b>Tekst1 &lt;br&gt; Tekst2</b>
-        <br>Rezultat:Tekst1 <br> Tekst2
-        <br>Komentarz: nowa linia tekstu
+        <br><br><br><h3>5. Nowa linia tekstu - &lt;br&gt;</h3>
+        Przykład: <br><b>Tekst1 &lt;br&gt; Tekst2</b>
+        <br><br>Rezultat:<br>Tekst1 <br> Tekst2
+        <br><br>Komentarz: nowa linia tekstu
 
-        <br><br> Link do strony internetowej (hiperłącze) (otwarcie w tym samym oknie) - &lt;a href=""&gt;&lt;/a&gt;
-        <br>Przykład: <b>&lt;a href="https://www.w3schools.com/html/"&gt;Strona internetowa HTML&lt;/a&gt;</b>
-        <br>Rezultat: <a href="https://www.w3schools.com/html/">Strona internetowa HTML</a>
-        <br>Komentarz: Po kliknięciu w link otwiera się strona internetowa w bieżącym oknie
+        <br><br><br><h3>6. Lista nieuporządkowana (z kropką) - &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</h3>
+        Przykład: <b><br>&lt;ul&gt;<br>&lt;li&gt;Punkt pierwszy&lt;/li&gt;<br>&lt;li&gt;Punkt drugi&lt;/li&gt;<br>&lt;/ul&gt;</b>
+        <br><br>Rezultat: <br><ul><li>Punkt pierwszy</li><li>Punkt drugi</li></ul>
+        <br><br>Komentarz: tworzy listę nieuporządkowaną punktową
 
-        <br><br> Link do strony internetowej (hiperłącze) (otwarcie w nowej karcie) - &lt;a href="" target="_blank"&gt;&lt;/a&gt;
-        <br>Przykład: <b>&lt;a href="https://www.w3schools.com/html/" target="_blank"&gt;Strona internetowa HTML&lt;/a&gt;</b>
-        <br>Rezultat: <a href="https://www.w3schools.com/html/" target="_blank">Strona internetowa HTML</a>
-        <br>Komentarz: Po kliknięciu w link otwiera się strona internetowa w nowej karcie
+        <br><br><br><h3>7. Lista uporządkowana (z cyframi) - &lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</h3>
+        Przykład: <b><br>&lt;ol&gt;<br>&lt;li&gt;Punkt pierwszy&lt;/li&gt;<br>&lt;li&gt;Punkt drugi&lt;/li&gt;<br>&lt;/ol&gt;</b>
+        <br><br>Rezultat: <ol><li>Punkt pierwszy</li><li>Punkt drugi</li></ol>
+        <br><br>Komentarz: tworzy listę uporządkowaną numeracyjną
 
-        <br><br> Link podstrony internetowej (hiperłącze) - &lt;a href=""&gt;&lt;/a&gt;
-        <br>Przykład: <b>&lt;a href="https://www.w3schools.com/html/" target="_blank"&gt;Strona internetowa HTML&lt;/a&gt;</b>
-        <br>Rezultat: <a href="/strona1.html">Podstrona</a>
-        <br>Komentarz: Po kliknięciu w link otwiera się podstrona stworzona przeze mnie
+        <br><br><br><h3>8. Lista uporządkowana (z literami) - &lt;ol type="A"&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</h3>
+        Przykład: <b><br>&lt;ol type="A"&gt;<br>&lt;li&gt;Punkt pierwszy&lt;/li&gt;<br>&lt;li&gt;Punkt drugi&lt;/li&gt;<br>&lt;/ol&gt;</b>
+        <br><br>Rezultat: <ol type="A"><li>Punkt pierwszy</li><li>Punkt drugi</li></ol>
+        <br><br>Komentarz: tworzy listę uporządkowaną literową
 
-        <br><br>Dodanie obrazka z dysku - &lt;img src=""/&gt;
-        <br>Przykład: <b>&lt;br&gt;&lt;img src="./zdjecie.jpeg"/&gt;</b>
-        <br>Rezultat: <br><img src="./zdjecie.jpeg"/>
-        <br>Komentarz: dodanie zdjęcia z dysku, kropka oznacza bieżący katalog, w którym znajduje się też index.html
+        <br><br><br><h3>9. Lista destription list (z tytułem i punktami) - &lt;dl&gt;&lt;dt&gt;&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;</h3>
+        Przykład: <b><br>&lt;dl&gt;<br>&lt;dt&gt;Tytuł&lt;/dt&gt;<br>&lt;dd&gt;Podtytuł&lt;/dd&gt;<br>&lt;/dl&gt;</b>
+        <br><br>Rezultat: <dl><dt>Tytuł</dt><dd>Podtytuł</dd></dl>
+        <br><br>Komentarz: tworzy listę z tytułem i podtytułem
 
-        <br><br>Zmiana wysokości i szerokości obrazka - &lt;img src="" height="" width=""/&gt;
-        <br>Przykład: <b>&lt;br&gt;&lt;img src="./zdjecie.jpeg" height="300" width= "100"/&gt;</b>
-        <br>Rezultat: <br><img src="./zdjecie.jpeg" height="300" width= "200"/>
-        <br>Komentarz: height to wysokość, width to szerokość, usunięcie jednego z nich przywróci odpowiednie proporcje obrazka
+        <br><br><br><h3>10. Link do strony internetowej (hiperłącze) (otwarcie w tym samym oknie) - &lt;a href=""&gt;&lt;/a&gt;</h3>
+        Przykład: <br><b>&lt;a href="https://www.w3schools.com/html/"&gt;Strona internetowa HTML&lt;/a&gt;</b>
+        <br><br>Rezultat: <a href="https://www.w3schools.com/html/">Strona internetowa HTML</a>
+        <br><br>Komentarz: Po kliknięciu w link otwiera się strona internetowa w bieżącym oknie
 
+        <br><br><br><h3>11. Link do strony internetowej (hiperłącze) (otwarcie w nowej karcie) - &lt;a href="" target="_blank"&gt;&lt;/a&gt;</h3>
+        Przykład: <br><b>&lt;a href="https://www.w3schools.com/html/" target="_blank"&gt;Strona internetowa HTML&lt;/a&gt;</b>
+        <br><br>Rezultat: <a href="https://www.w3schools.com/html/" target="_blank">Strona internetowa HTML</a>
+        <br><br>Komentarz: Po kliknięciu w link otwiera się strona internetowa w nowej karcie
+
+        <br><br><br><h3>12. Link podstrony internetowej (hiperłącze) - &lt;a href=""&gt;&lt;/a&gt;</h3>
+        Przykład: <br><b>&lt;a href="https://www.w3schools.com/html/" target="_blank"&gt;Strona internetowa HTML&lt;/a&gt;</b>
+        <br><br>Rezultat: <a href="/strona1.html">Podstrona</a>
+        <br><br>Komentarz: Po kliknięciu w link otwiera się podstrona stworzona przeze mnie
+
+        <br><br><br><h3>13. Dodanie obrazka z dysku - &lt;img src=""/&gt;</h3>
+        Przykład: <br><b>&lt;br&gt;&lt;img src="./zdjecie.jpeg"/&gt;</b>
+        <br><br>Rezultat: <br><img src="./zdjecie.jpeg"/>
+        <br><br>Komentarz: dodanie zdjęcia z dysku, kropka oznacza bieżący katalog, w którym znajduje się też index.html
+
+        <br><br><br><h3>14. Zmiana wysokości i szerokości obrazka - &lt;img src="" height="" width=""/&gt;</h3>
+        Przykład: <br><b>&lt;br&gt;&lt;img src="./zdjecie.jpeg" height="300" width= "100"/&gt;</b>
+        <br><br>Rezultat: <br><img src="./zdjecie.jpeg" height="300" width= "200"/>
+        <br><br>Komentarz: height to wysokość, width to szerokość, usunięcie jednego z nich przywróci odpowiednie proporcje obrazka
+
+        <br><br><br><h3>15. tabela - &lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;&lt;/tr&gt;&lt;/table&gt;</h3>
+        Przykład: <br>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Jeden&lt;/th&gt;<br>&lt;th&gt;Dwa&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;
+        <br><br>Rezultat: <table><tr><th>Jeden</th><th>Dwa</th></tr><tr><td>Trzy</td><td>Cztery</td></tr></table>
+        <br><br>Komentarz: Tworzy tabele: tr - wiersz, th - nagłówek tabeli, td - dane tabeli
     </body>
 </html>
