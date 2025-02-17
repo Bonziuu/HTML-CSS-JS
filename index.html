@@ -3,11 +3,7 @@
     <head>
         <title>Podstawy HTML</title>
         <meta charset="UTF-8">
-        <style>
-            h3 {
-                color: green;
-            }
-        </style>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <h1>Podstawy HTML</h1>
@@ -83,9 +79,16 @@
         <br><br>Rezultat: <br><img src="./zdjecie.jpeg" height="300" width= "200"/>
         <br><br>Komentarz: height to wysokość, width to szerokość, usunięcie jednego z nich przywróci odpowiednie proporcje obrazka
 
-        <br><br><br><h3>15. tabela - &lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;&lt;/tr&gt;&lt;/table&gt;</h3>
-        Przykład: <br>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Jeden&lt;/th&gt;<br>&lt;th&gt;Dwa&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;
+        <br><br><br><h3>15. Tabela - &lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</h3>
+        Przykład: <br>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Jeden&lt;/th&gt;<br>&lt;th&gt;Dwa&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Trzy&lt;/td&gt;<br>&lt;td&gt;Cztery&lt;/td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;
         <br><br>Rezultat: <table><tr><th>Jeden</th><th>Dwa</th></tr><tr><td>Trzy</td><td>Cztery</td></tr></table>
         <br><br>Komentarz: Tworzy tabele: tr - wiersz, th - nagłówek tabeli, td - dane tabeli
+
+        <h2>Jak zmieniać styl strony?</h2>
+        Dołączamy w tym przypadku drugi plik o nazwie style.css, a jego implementacja robi się w nagłówku HEAD poprzez komendę:
+        <br>&lt;link rel="stylesheet" href="style.css"&gt;
+
+        <h2>FUNspace:</h2>
+        <button href="https://www.youtube.com/watch?v=G3e-cpL7ofc">Kliknij</button>
     </body>
 </html>
