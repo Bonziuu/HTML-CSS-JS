@@ -16,3 +16,10 @@ img{
     border-radius: 30px;
     cursor: pointer;
 }
+button.youtube-button{
+    color:white;
+    background-color: rgb(204, 0, 0);
+    border: none;
+    height: 36px;
+    width: 150px;
+}
