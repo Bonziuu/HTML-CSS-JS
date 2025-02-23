@@ -9,7 +9,6 @@
 }
 
 .div1{
-    width: 300px;
     display: inline-block;
     margin-right: 15px;
 }
@@ -19,4 +18,37 @@
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+}
+
+.small_images{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.film_title{
+    display: inline-block;
+    width: 200px;
+    margin-top: 0px;
+}
+
+.img1_1{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.image_margine{
+    margin-bottom: 12px;
+}
+
+.font_title{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.font_title2{
+    font-family: Roboto, Arial;
+    font-size: 14px;
 }
