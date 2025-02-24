@@ -10,14 +10,16 @@
 
 .div1{
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12{
     width: 300px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
     margin-bottom: 36px;
 }
 
@@ -65,5 +67,6 @@
 }
 
 .head_div{
-    width: 1265px;
+    display: grid;
+    grid-template-columns: 315px 315px 315px 315px;
 }
