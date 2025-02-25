@@ -1,6 +1,5 @@
 .img1{
-    width: 300px;
-    
+    width: 100%;
 }
 
 .input1{
@@ -8,24 +7,8 @@
     display: block;
 }
 
-.div1{
-    display: inline-block;
-    margin-left: 6px;
-    margin-right: 6px;
-}
-
-.div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-bottom: 36px;
-}
-
 .small_images{
-    display: inline-block;
-    width: 50px;
+    width: 90%;
     vertical-align: top;
 }
 
@@ -68,5 +51,12 @@
 
 .head_div{
     display: grid;
-    grid-template-columns: 315px 315px 315px 315px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 60px 1fr;
 }
