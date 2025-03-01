@@ -215,8 +215,8 @@ body{
 .panelboczny{
     background-color: rgb(255, 255, 255);
     position: fixed;
-    top: 56px;
+    top: 55px;
     bottom: 0;
     left: 0;
-    width: 75px;
+    width: 72px;
 }
