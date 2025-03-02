@@ -219,4 +219,51 @@ body{
     bottom: 0;
     left: 0;
     width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bocznemenu1{
+    height: 24px;
+}
+
+.bocznemenu2{
+    height: 24px;
+}
+
+.bocznemenu3{
+    height: 24px;
+}
+
+.bocznemenu4{
+    height: 24px;
+}
+
+.bocznemenu5{
+    height: 24px;
+}
+
+.bocznemenu6{
+    height: 24px;
+}
+
+.napis{
+    font-family: Roboto, Arial;
+    font-size: 10px
+}
+
+.bocznemenu{
+    height: 80px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.bocznemenu:hover{
+    background-color: rgb(235, 235, 235);
 }
