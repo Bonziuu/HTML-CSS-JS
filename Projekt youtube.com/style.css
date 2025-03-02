@@ -1,16 +1,19 @@
 .img1{
     width: 100%;
+    cursor: pointer
 }
 
 .small_images{
     width: 90%;
     vertical-align: top;
+    cursor: pointer
 }
 
 .film_title{
     display: inline-block;
     width: 200px;
     margin-top: 0px;
+    cursor: pointer
 }
 
 .img1_1{
@@ -129,6 +132,7 @@ body{
     height: 22px;
     margin-left: 24px;
     margin-right: 26px;
+    cursor: pointer
 }
 
 .menu1:hover{
@@ -138,6 +142,7 @@ body{
 
 .menu2{
     height: 20px;
+    cursor: pointer
 }
 
 .menu3{
@@ -164,6 +169,7 @@ body{
 .menu4{
     height: 26px;
     margin-top: 4px;
+    cursor: pointer
 }
 
 .przycisknagrywania{
@@ -183,6 +189,7 @@ body{
 .menu5{
     height: 32px;
     margin-right: 16px;
+    cursor: pointer
 }
 
 .menu5:hover{
@@ -192,6 +199,7 @@ body{
 .menu6{
     height: 32px;
     margin-right: 16px;
+    cursor: pointer
 }
 
 .menu6:hover{
@@ -201,6 +209,7 @@ body{
 .menu7{
     height: 32px;
     margin-right: 16px;
+    cursor: pointer
 }
 
 .menu7:hover{
@@ -210,6 +219,7 @@ body{
 .menu8{
     height: 32px;
     margin-right: 30px;
+    cursor: pointer
 }
 
 .panelboczny{
@@ -224,28 +234,9 @@ body{
     align-items: center;
 }
 
-.bocznemenu1{
+.bocznemenu1, .bocznemenu2, .bocznemenu3, .bocznemenu4, .bocznemenu5, .bocznemenu6{
     height: 24px;
-}
-
-.bocznemenu2{
-    height: 24px;
-}
-
-.bocznemenu3{
-    height: 24px;
-}
-
-.bocznemenu4{
-    height: 24px;
-}
-
-.bocznemenu5{
-    height: 24px;
-}
-
-.bocznemenu6{
-    height: 24px;
+    margin-bottom: 4px;
 }
 
 .napis{
@@ -262,6 +253,7 @@ body{
     justify-content: center;
     text-align: center;
     width: 100%;
+    cursor: pointer
 }
 
 .bocznemenu:hover{
