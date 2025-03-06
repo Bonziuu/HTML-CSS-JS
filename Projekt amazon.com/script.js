@@ -28,25 +28,38 @@ const reset = document.getElementById("reset");
 const reset1 = document.getElementById("reset1");
 
 p1.addEventListener("click", function(){
-    wartosc1 = wartosc1 + 1;
-    dodano1.textContent = 'Dodano przedmiot'
+    wartosc1++;
+    dodano1.textContent = 'Dodano przedmiot';
 })
 
 p2.addEventListener("click", function(){
-    wartosc1 = wartosc1 + 2;
-    dodano2.textContent = 'Dodano przedmiot x2'
+    wartosc1+=2;
+    dodano2.textContent = 'Dodano przedmiot x2';
 })
 
 p3.addEventListener("click", function(){
-    wartosc1 = wartosc1 + 3;
-    dodano3.textContent = 'Dodano przedmiot x3'
+    wartosc1+=3;
+    dodano3.textContent = 'Dodano przedmiot x3';
 })
 
 reset.addEventListener("click", function(){
     wartosc1 = wartosc1 * 0;
-    dodano3.textContent = 'Wyczyszczono koszyk'
+    dodano3.textContent = 'Wyczyszczono koszyk';
 })
 
 button.addEventListener("click", function(){
     output.textContent = wartosc1;
 })
+
+// pętla if w JS
+
+let a = 0;
+if(a > 18) {
+    console.log('Możesz prowadzić samochód');
+}
+else if (a = 18) {
+    console.log('Możesz zdać kurs na prawo jazdy');
+}
+else {
+    console.log('Nie możesz prowadzić pojazdu');
+}
